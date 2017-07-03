@@ -33,7 +33,7 @@ namespace Shared.Actors
         protected override void PreStart()
         {
             Cluster.Subscribe(Self, ClusterEvent.InitialStateAsEvents,
-                new[] {typeof(ClusterEvent.IMemberEvent), typeof(ClusterEvent.UnreachableMember)});
+                new[] {typeof(ClusterEvent.IMemberEvent), typeof(ClusterEvent.UnreachableMember), typeof(ClusterEvent.LeaderChanged) });
         }
 
         protected override void PostStop()
