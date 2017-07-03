@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "my_akka_cluster_service_fabric", "my-akka-cluster-service-fabric\my_akka_cluster_service_fabric.sfproj", "{B4319DC2-0203-4802-83AD-1477C3313A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySeedNodeService", "MySeedNodeService\MySeedNodeService.csproj", "{1F94D01E-8ED1-4BA7-B041-25DE0520209D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNodeService", "MyNodeService\MyNodeService.csproj", "{D612892E-967B-4B39-B0A9-92A7E6475763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{96A01339-9953-498E-BF15-228A70C7787B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4319DC2-0203-4802-83AD-1477C3313A00}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{B4319DC2-0203-4802-83AD-1477C3313A00}.Debug|x64.ActiveCfg = Debug|x64
+		{B4319DC2-0203-4802-83AD-1477C3313A00}.Debug|x64.Build.0 = Debug|x64
+		{B4319DC2-0203-4802-83AD-1477C3313A00}.Debug|x64.Deploy.0 = Debug|x64
+		{B4319DC2-0203-4802-83AD-1477C3313A00}.Release|Any CPU.ActiveCfg = Release|x64
+		{B4319DC2-0203-4802-83AD-1477C3313A00}.Release|x64.ActiveCfg = Release|x64
+		{B4319DC2-0203-4802-83AD-1477C3313A00}.Release|x64.Build.0 = Release|x64
+		{B4319DC2-0203-4802-83AD-1477C3313A00}.Release|x64.Deploy.0 = Release|x64
+		{1F94D01E-8ED1-4BA7-B041-25DE0520209D}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{1F94D01E-8ED1-4BA7-B041-25DE0520209D}.Debug|x64.ActiveCfg = Debug|x64
+		{1F94D01E-8ED1-4BA7-B041-25DE0520209D}.Debug|x64.Build.0 = Debug|x64
+		{1F94D01E-8ED1-4BA7-B041-25DE0520209D}.Release|Any CPU.ActiveCfg = Release|x64
+		{1F94D01E-8ED1-4BA7-B041-25DE0520209D}.Release|x64.ActiveCfg = Release|x64
+		{1F94D01E-8ED1-4BA7-B041-25DE0520209D}.Release|x64.Build.0 = Release|x64
+		{D612892E-967B-4B39-B0A9-92A7E6475763}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D612892E-967B-4B39-B0A9-92A7E6475763}.Debug|x64.ActiveCfg = Debug|x64
+		{D612892E-967B-4B39-B0A9-92A7E6475763}.Debug|x64.Build.0 = Debug|x64
+		{D612892E-967B-4B39-B0A9-92A7E6475763}.Release|Any CPU.ActiveCfg = Release|x64
+		{D612892E-967B-4B39-B0A9-92A7E6475763}.Release|x64.ActiveCfg = Release|x64
+		{D612892E-967B-4B39-B0A9-92A7E6475763}.Release|x64.Build.0 = Release|x64
+		{96A01339-9953-498E-BF15-228A70C7787B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A01339-9953-498E-BF15-228A70C7787B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A01339-9953-498E-BF15-228A70C7787B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{96A01339-9953-498E-BF15-228A70C7787B}.Debug|x64.Build.0 = Debug|Any CPU
+		{96A01339-9953-498E-BF15-228A70C7787B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A01339-9953-498E-BF15-228A70C7787B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A01339-9953-498E-BF15-228A70C7787B}.Release|x64.ActiveCfg = Release|Any CPU
+		{96A01339-9953-498E-BF15-228A70C7787B}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
